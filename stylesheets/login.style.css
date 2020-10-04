@@ -1,0 +1,170 @@
+/**=============================================================================
+ *
+ *	Filename: stylesheet.css
+ *	
+ *	(c)Autor: Arkos Noem Arenom
+ *	
+ *	Description: Estilos del documento
+ *	
+ *	Licence: GPL|LGPL
+ *	
+ *===========================================================================**/
+
+
+*{
+	font-family: "Trebuchet MS", Arial, Sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: transparent;
+	letter-spacing: 0px;
+	word-spacing: 0.08em;
+	line-height: 18px;
+}
+
+#allContent{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.inner{
+	display: block;
+	padding: 10px;
+}
+
+#alertBoxes{
+	display: block;
+	width: 500px;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.loginBlock{
+	display: block;
+	width: 500px;
+	border: 1px solid #eaeaea;
+	background-color: #fafafa;
+	/*text-align: left;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.loginBlock form input[type=text], .loginBlock form input[type=password]{
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid #dadada;
+	background-color: #eaeaea;
+	padding: 3px;
+	color: #404040;
+	width: 380px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.loginBlock form button{
+	display: inline-block;
+	margin: 5px;
+	border: 1px solid #dadada;
+	background-color: #eaeaea;
+	padding: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #404040;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.timer, .timer_pass{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-image: url('../images/login/loader.gif');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.box-info, .box-success, .box-alert, .box-error{
+	clear: both;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	text-align: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.box-info {
+	color: #00529b;
+	background-color: #bde5f8;
+	border-color: #00529b;
+}
+.box-success {
+	color: #4f8a10;
+	background-color: #dff2bf;
+	border-color: #4f8a10;
+}
+.box-alert {
+	color: #9f6000;
+	background-color: #feefb3;
+	border-color: #9f6000;
+}
+.box-error {
+	color: #d8000c;
+	background-color: #ffbaba;
+	border-color: #d8000c;
+}
+
+.session_on{
+	display: block;
+	text-align: left;
+}
+
+.download_manual {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:italic;
+	height:50px;
+	line-height:50px;
+	width:220px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.download_manual:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.download_manual:active {
+	position:relative;
+	top:1px;
+}

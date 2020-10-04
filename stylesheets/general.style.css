@@ -1,0 +1,102 @@
+html {
+    font-family: arial;
+    font-size: 12px;
+}
+
+body{
+	background-color: #fff;
+	color: #777;
+        background-image: url('../images/general/background.png');
+        margin: 20px 270px 0 20px;
+}
+
+/*********  Upload Files ***************/
+
+#upload_button {
+	width:120px;
+	height:35px;
+	text-align:center;
+	background-image:url(../images/forms/button_upload.png);
+	color:#CCCCCC;
+	font-weight:bold;
+	padding-top:15px;
+	margin:auto;
+	cursor:pointer;
+}
+
+#upload_button:hover{
+	color:#FFFFFF;
+}
+
+
+/*********  Menu ***************/
+
+.horizontal-nav {
+    background: #efefef;
+    border-radius: 6px;
+}
+
+.horizontal-nav ul {
+    list-style: none;
+    background: #128F9A;
+    float: left;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #0e7079;
+}
+
+.horizontal-nav ul li {
+    float: left;
+    border-left: 1px solid #0e7079;
+}
+
+.horizontal-nav ul li:first-child {
+    border-left: 0 none;
+}
+
+.horizontal-nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    border-top: 1px solid rgba(255,255,255, 0.25);
+    border-left: 1px solid rgba(255,255,255, 0.25);
+}
+
+.horizontal-nav ul li:first-child a {
+    border-left: 0 none;
+}
+
+.horizontal-nav ul li a:hover {
+    background: #12808a;
+}
+
+.horizontal-nav ul li:first-child a {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.horizontal-nav ul li:last-child a {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/*********    Tabs   **************/
+
+.etabs { margin: 0; padding: 0; }
+
+.tab { 
+    display: inline-block; 
+    zoom:1; 
+    /* display:inline; */
+    background: #eee; 
+    border: solid 1px #999; 
+    border-bottom: none; 
+    -moz-border-radius: 4px 4px 0 0; 
+    -webkit-border-radius: 4px 4px 0 0; 
+}
+.tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
+.tab a:hover { text-decoration: underline; }
+.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+.tab a.active { font-weight: bold; }
+.tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
